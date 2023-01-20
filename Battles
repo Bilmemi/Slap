@@ -1,0 +1,31 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+
+
+local Window = Library.CreateLib("Slap Battles", "DarkTheme") 
+
+local Tab = Window:NewTab("SB")
+local Section = Tab:NewSection("SB") 
+
+Section:NewLabel("SB") 
+
+Section:NewButton("DİZZY HUB", "UI", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/loader.lua")))();
+end)
+
+
+Section:NewButton("İnfinite Yield", "UI", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end) 
+
+Section:NewButton("REACH", "UI", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Bilmemi/loll/main/Hh'))()
+end) 
+
+Section:NewButton("TPTOOL", "UI", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Bilmemi/tp/main/tool'))()
+end) 
+
+Section:NewButton("ELUDE", "KEY, function()
+    print("KEY:1393")
+end)
